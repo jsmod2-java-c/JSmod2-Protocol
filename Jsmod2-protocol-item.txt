@@ -33,4 +33,9 @@ jsmod2 protocol about item [use for jsmod2 protocol 4.5)
  id 0x5a
  type item
  kinematic {value}
- player {value}
+ player {itemId}
+8.item setPosition
+ id 0x5b
+ type item
+ position {value}
+ player {itemId}
