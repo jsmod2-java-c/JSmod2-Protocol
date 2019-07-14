@@ -1,0 +1,9 @@
+jsmod2 protocol about event [use for jsmod2 protocol 4.5)
+
+event.admin:
+  adminquery:
+    setAdmin:
+      id 0x66
+      type event
+      admin {value}
+      player {eventId}
