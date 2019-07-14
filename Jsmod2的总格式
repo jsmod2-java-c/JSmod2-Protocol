@@ -1,0 +1,13 @@
+Jsmod2协议分为5种请求方式:Get，Set，IDSend，CommandRegister，CommandSender
+            一种响应: Future响应
+Jsmod2端会发送Get和Set和CommandRegister
+Get请求发送后，会有一个具体的返回值，Get请求基本不会修改对方端的具体参数，它的目的仅仅为了返回值
+Set请求发送后，不会有返回值，Set请求一定会修改对方端的具体参数，它的目的仅仅为了修改值
+CommandRegister请求，用于注册命令，没有返回值
+C#端会发送
+IDSend是发送Event请求，当发送Event对象时，将全部对象添加到请求链，并附带一个id账号
+CommandSender请求，用于执行jsmod2注册的命令
+
+Future响应是一个二进制的响应串，Jsmod2的Response对象已经封装了它，进行了响应编译
+
+Get和Set请求已经封装在了数据包中，直接使用send即可发包
