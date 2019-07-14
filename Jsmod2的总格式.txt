@@ -11,3 +11,37 @@ CommandSender请求，用于执行jsmod2注册的命令
 Future响应是一个二进制的响应串，Jsmod2的Response对象已经封装了它，进行了响应编译
 
 Get和Set请求已经封装在了数据包中，直接使用send即可发包
+
+一个Get请求
+111-{
+   "id":"111",
+   "type":"item",
+   "field":"xxx",
+   "player":"ADE4-FL09-ADGB-Y9E6“
+}
+一个Set请求
+111-{
+   "id":"111",
+   "type":"item",
+   "do":"remove",
+   "player":"ADE4-FL09-ADGB-Y9E6“
+}
+111-{
+   "id":"111",
+   "type":"item",
+   "kinematic":"true",
+   "player":"ADE4-FL09-ADGB-Y9E6“
+}
+IDSend请求
+{
+    #省略，对象信息
+}|"admin-playerName":"ADE4-FL09-ADGB-Y9E6"
+
+
+Future响应
+{
+    #省略，对象信息
+}|"admin-item":"ADE4-FL09-ADGB-Y9E6"@!{
+    #省略，对象信息
+}|"admin-item":"ADE4-FL09-ADGB-Y9E7"
+
