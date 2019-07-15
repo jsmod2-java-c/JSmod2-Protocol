@@ -1,4 +1,4 @@
-jsmod2 protocol about item [use for jsmod2 protocol 4.5)
+!jsmod2 protocol about item (use for jsmod2 protocol 4.5)
 
 define {key} {value} as field
 
