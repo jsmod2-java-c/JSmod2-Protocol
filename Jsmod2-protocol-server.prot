@@ -21,7 +21,7 @@ start:
     id 0x61
     type server
     field round
-  erver setMaxPlayers
+  server setMaxPlayers
     id 0x65
     type server
     maxPlayers {value}
