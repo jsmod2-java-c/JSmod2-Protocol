@@ -8,6 +8,7 @@ start:
   item drop
     id 0x57
     type item
+    do drop
     player {itemId}
   item getComponent
     id 0x5c
