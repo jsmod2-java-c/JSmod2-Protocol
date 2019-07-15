@@ -1,5 +1,7 @@
 jsmod2 protocol about server [use for jsmod2 protocol 4.5)
 
+define {key} {value} as field
+
 start:
   server getIpAddress
     id  0x60
