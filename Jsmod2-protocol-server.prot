@@ -1,3 +1,7 @@
 jsmod2 protocol about server [use for jsmod2 protocol 4.5)
 
 1.server ipAddress
+  id  0x60
+  type server
+  field ipAddress
+  
