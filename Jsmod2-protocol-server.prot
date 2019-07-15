@@ -1,7 +1,30 @@
 jsmod2 protocol about server [use for jsmod2 protocol 4.5)
 
-1.server ipAddress
-  id  0x60
-  type server
-  field ipAddress
+start:
+  server getIpAddress
+    id  0x60
+    type server
+    field ipAddress
+  server getMaxPlayers
+    id 0x64
+    type server
+    field maxPlayers
+  server getNumPlayers
+    id 0x62
+    type server
+    field numPlayers
+  server getPort
+    id 0x5f
+    type server
+    field port
+  server getRound
+    id 0x61
+    type server
+    field round
+  erver setMaxPlayers
+    id 0x65
+    type server
+    maxPlayers {value}
+done
+
   
