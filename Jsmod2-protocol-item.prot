@@ -33,7 +33,7 @@ start:
  item setInworld
    id 0x59
    type item
-   inworld {value}
+   inWorld {value}
    player {itemId}
  item setKinematic
    id 0x5a
