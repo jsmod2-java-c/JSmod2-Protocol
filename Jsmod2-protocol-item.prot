@@ -1,41 +1,47 @@
 jsmod2 protocol about item [use for jsmod2 protocol 4.5)
 
-item drop
-  id 0x57
-  type item
-  player {itemId}
-item getComponent
- id 0x5c
- type item
- field component
- player {itemId}
-item getKinematic
- id 0x5d
- type item
- field kinematic
- player {itemId}
-item getPosition
- id 0x5e
- type item
- field position
- player {itemId}
-item remove
- id 0x58
- type item
- do remove
- player {itemId} 
-item setInworld
- id 0x59
- type item
- inworld {value}
- player {itemId}
-item setKinematic
- id 0x5a
- type item
- kinematic {value}
- player {itemId}
-item setPosition
- id 0x5b
- type item
- position {value}
- player {itemId}
+define {key} {value} as field
+
+define {itemId} as id
+
+start:
+  item drop
+    id 0x57
+    type item
+    player {itemId}
+  item getComponent
+    id 0x5c
+    type item
+    field component
+    player {itemId}
+ item getKinematic
+   id 0x5d
+   type item
+   field kinematic
+   player {itemId}
+ item getPosition
+   id 0x5e
+   type item
+   field position
+   player {itemId}
+ item remove
+   id 0x58
+   type item
+   do remove
+   player {itemId} 
+ item setInworld
+   id 0x59
+   type item
+   inworld {value}
+   player {itemId}
+ item setKinematic
+   id 0x5a
+   type item
+   kinematic {value}
+   player {itemId}
+ item setPosition
+   id 0x5b
+   type item
+   position {value}
+   player {itemId}
+done
