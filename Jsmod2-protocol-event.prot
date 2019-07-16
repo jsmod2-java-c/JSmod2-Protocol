@@ -1,6 +1,6 @@
 !jsmod2 protocol about event (use for jsmod2 protocol 4.5)
 
-include do.prot
+inline include do.prot
 
 define {eventId} as id
 
