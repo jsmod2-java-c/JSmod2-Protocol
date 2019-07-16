@@ -1,6 +1,6 @@
 !jsmod2 protocol about server (use for jsmod2 protocol 4.5)
 !jsmod2关于服务端对象的协议，适配最新的JP4.5
-define {key} {value} as field
+inline include do.prot
 
 start:
   server getIpAddress
