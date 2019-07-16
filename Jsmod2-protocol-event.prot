@@ -1,6 +1,6 @@
 !jsmod2 protocol about event (use for jsmod2 protocol 4.5)
 
-define {key} {value} as field
+include do.prot
 
 define {eventId} as id
 
