@@ -9,5 +9,5 @@ using c-sharp 'System' 'jsmod2.ProxyHandler.toCommon' as common
 start before
   define {key} {value} as field
 
-done then
-  bytes.utf-8.base64.common.string
+done then as [json]
+  json.bytes.utf-8.base64.common.string
