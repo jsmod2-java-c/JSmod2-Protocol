@@ -1,7 +1,8 @@
 !include doing between server and client
 
 using java 'utils.Base64'
-using c-sharp 'System'
+using c-sharp 'System' 'jsmod2.ProxyHandler.toCommon' as common 
+                        'getString' as string
 !链接lib
 
 
