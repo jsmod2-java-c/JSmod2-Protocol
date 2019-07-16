@@ -30,7 +30,8 @@ start:
    id 0x58
    type item
    do remove
-   player {itemId} 
+   player {itemId}
+ !这个protocol由于是没有意义的，因此淘汰，不得使用
  @ProtocolDeprecated("no meaning","item setInworld")
  item setInworld
    id 0x59
