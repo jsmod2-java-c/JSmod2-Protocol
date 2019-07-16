@@ -1,5 +1,10 @@
 !include doing between server and client
 
+using java 'utils.Base64'
+using c-sharp 'System'
+!链接lib
+
+
 start before
   define {key} {value} as field
 
