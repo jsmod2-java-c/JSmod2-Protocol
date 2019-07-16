@@ -1,4 +1,7 @@
 !include doing between server and client
 
+start before
+  define {key} {value} as field
+
 done then
   bytes.utf-8.base64.common.string
