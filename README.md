@@ -9,3 +9,6 @@ the jsmod2 protocol::How_to_Use
   * proxyHandler维护了一个hash-api映射表，可以定位api对象
   * 请求头在未来将会考虑取消
   * 添加了请求串功能，可以一次发行一串相同的请求，最终会转化为数组类型，使用@!分隔符
+  
+  
+- 协议文件采用jsmod2 protocol阅读语法
