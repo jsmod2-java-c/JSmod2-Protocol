@@ -35,13 +35,13 @@ Get和Set请求已经封装在了数据包中，直接使用send即可发包
 IDSend请求
 {
     #省略，对象信息
-}|"admin-playerName":"ADE4-FL09-ADGB-Y9E6"
+}|||"admin-playerName":"ADE4-FL09-ADGB-Y9E6"
 
 
 Future响应
 {
     #省略，对象信息
-}|"admin-item":"ADE4-FL09-ADGB-Y9E6"@!{
+}|||"admin-item":"ADE4-FL09-ADGB-Y9E6"@!{
     #省略，对象信息
-}|"admin-item":"ADE4-FL09-ADGB-Y9E7"
+}|||"admin-item":"ADE4-FL09-ADGB-Y9E7"
 
