@@ -1,5 +1,5 @@
 # JSmod2-Protocol
-这里说明了关于JSmod2 v4协议的使用文档
+这里说明了关于JSmod2 v5协议的使用文档
 
 - JSmod2协议最新版本：v5
 - JSmod2 Protocol v4.5相关更新
